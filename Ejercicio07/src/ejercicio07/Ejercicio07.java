@@ -16,6 +16,11 @@ public class Ejercicio07 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        boolean resultado= ((Math.sqrt(81)+9)/3==9||(10>1));
+        boolean resultado2= 100/25+Math.sqrt(100)>=14;
+        boolean resultadoFinal= resultado && resultado2;
+        System.out.println(resultadoFinal);
+
     }
     
 }
